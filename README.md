@@ -6,7 +6,7 @@ Reusable operating guides for personal experiments. Keep prototype code in dedic
 
 1. **Frame in ChatGPT Work:** Define the hypothesis, constraints, one observable success criterion, and the smallest demonstrable scope. Avoid long specifications.
 2. **Prepare a dedicated GitHub repository:** Add a short README, a concise spec, and representative sample inputs. Keep personal playbooks here, not in the professional architecture-skills repository.
-3. **Build with Codex:** Open the prototype repository and invoke the reusable `rapid-prototype` skill when available. Implement the minimum working experiment, run focused tests, and report actual results.
+3. **Build with Codex:** Open the prototype repository and invoke the reusable `rapid-prototype` skill when available. Prefer the lowest-cost model suitable for the task (select it in Codex settings when available); do not switch to a more expensive model unless necessary. Implement the minimum working experiment, run focused tests, and report actual results.
 4. **Review:** Inspect the running prototype and its evidence. Iterate narrowly, stop, or decide to develop a production solution.
 5. **Record:** Keep run instructions, observed outcomes, limitations, and next steps in the prototype repository.
 
@@ -14,6 +14,7 @@ Reusable operating guides for personal experiments. Keep prototype code in dedic
 
 ```text
 Use the rapid-prototype skill in Technical POC mode, if installed.
+Prefer a cost-efficient model selected in Codex settings; escalate only if the task requires it.
 Read README.md and spec.md in this repository.
 Implement only the agreed minimal scope and its focused tests.
 Use existing dependencies when possible; minimize files, cost, and context.
